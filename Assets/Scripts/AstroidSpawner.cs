@@ -7,7 +7,7 @@ public class AstroidSpawner : MonoBehaviour
     [SerializeField]
     public int numOfAstroids;
 
-    public int currentNumOfAstroids;
+    public static int currentNumOfAstroids = 0;
     private Vector2 pos;
 
     [SerializeField]
